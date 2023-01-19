@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="main-container">
+    <div class="image-container">
+      <img class="image-desktop" src="images/image-product-desktop.jpg" alt="bottle of chanel perfume">
+      <img class="image-mobile" src="images/image-product-mobile.jpg" alt="bottle of chanel perfume">
+    </div>
+    <div class="information-container">
+      <div class="information">
+          <p class="preview">PERFUME</p>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.</p>
+          <span class="price-container">
+            <p class="sale-price">$149.99</p>
+            <strike class="normal-price">$169.99</strike>
+          </span>
+      </div>
+        <button>
+        <img src="images/icon-cart.svg" alt="shopping-cart icon">
+        <p>Add to Cart</p>
+      </button>
+    </div>
+  </main>
+</body>
+</html>
